@@ -9,4 +9,8 @@ public class demoController {
     public String index(){
         return "demo";
     }
+    @GetMapping("/demo1")
+    public String demo1(){
+        return "demo1";
+    }
 }
